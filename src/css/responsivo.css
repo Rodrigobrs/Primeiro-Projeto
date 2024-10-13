@@ -1,4 +1,4 @@
-@media(max-width: 750px) {  
+@media(max-width: 750px){  
     .Pokedevs{
         flex-direction: column;
         align-items: center;
@@ -18,8 +18,12 @@
         font-size: 16px;
     }
 
+    .listagem {
+        max-width: 360px;
+    }
+
     .listagem .pokedev{
-        width: 55%;
+        width: 45%;
         border-top-left-radius: 0;
         border-bottom-left-radius: 0;
         margin-bottom: 0;
